@@ -592,82 +592,173 @@ footer p{
     /*Formulario*/
 
     #formulario{
-        width: 80%;
+        width: 85%;
         height: 33em;
         
     }
+    #formulario label{
+        font-size: 0.8rem;
+    }
 
 }
-/*Pantallas de 768px o menos*/
+
+
+
+
+
+
+
+
+                                          /*Pantallas de 768px o menos*/
 @media(max-width: 768px){
 
     /*NAV*/
 header nav{
 display: none;
 }
-/*PORTADA*/
+                    /*PORTADA*/ /*Acá me falta sacar el espacio entre el lado a y b y centrarlo*/
 #portada{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 1300px;
-    
-}
-#portada .lado-a{
+} 
+
+ #portada .lado-a{
+    margin-top: 200px;
     flex: 1;
-    /*padding: 20% 10% 0% 10%;*/                      
+    padding: 20% auto 0% auto;
     
 }
-.lado-b {
-    width: 80%;
-    margin: 0 auto;
+.lado-a h1{
+    font-size: 5rem;
+    text-shadow: 3px  4px #4abaae;
+ 
+}
+.lado-a h2{
+    font-size: 2rem;
+    
+}
+.lado-a p{
+    padding-top: 1em; 
+    font-size: 1.2rem;
 }
 
+#portada .lado-b{
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+   
+}
+                      /*CONOCIMIENTOS*/
+#conocimientos {
+    width: 85%;
+}
+.cajas-conocimientos div {
+    height: 220px;
+  
+}
+                    /*PROYECTOS*/
+
+#proyectos {
+    width: 80%;  
+}
+
+.cajas-proyectos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cajas-proyectos div {
+    height: 200px;
+
+}
+                   /*FORMULARIO*/
+
+.columnas_de_contacto p{
+ width: 90%;
+ font-size: 0.9rem;
+
+}
+.columnas_de_contacto h2{
+    font-size: 2.2rem;
+}
+
+.columnas_de_contacto table{
+    margin-top: 2em;
+}
+
+.columnas_de_contacto table tr{
+    height: 1.8em;
+    font-size: 1rem;
+}
+.columnas_de_contacto table tr td{
+    padding-left: 0.5rem;
+    height: 2.2em;
+}
+
+.nombre_apellido{
+    display: flex;
+    flex-direction: column;
+}
+.nombreyapellido{
+    width: 110%;
+}
+
+                 /*FOOTER*/
+                 .footer{
+                    height: 9em;
+                    padding: 1em;
+                    
+                }
+                .footer_nav{
+                    width: 600px; 
+                    margin: 0 auto;
+                }
+                
+                .menu_footer{
+                    list-style: none;
+                    display: flex;
+                }
+
+                
+                .menu_footer li a{
+                    font-size: 0.8rem;
+                }  
+                
+                .footer_iconos{
+                    width: 10%; 
+                    margin: 0 auto;
+                }
+                
+                
+                .footer_iconos li a{
+                    font-size: 1rem;
+                }
+
+                
+                .footer_iconos li a i{
+                    border-radius: 50px;
+                    font-weight: lighter;
+                }
+                
+                footer p{
+                    text-align: center;
+                    padding-top: 0.8rem;
+                    color: #e6e6e6;
+                    
+                }                 
 
 
-}/*Pantallas de 768px o menos*/
+}/* Fin Pantallas de 768px o menos*/
 
 
 
 
 /*Pantallas de 480px o menos*/
 @media(max-width: 480px){
-nav{
-    height: 3em;
-    background-color: #ffd300;
-    
-}
 
-.btn_menu{
-    display: inline-flex;
-    margin-right: 60%;
-    
-}
-
-nav ul{
-    position: fixed;
-    width: 100%;
-    height: calc(100% - 3em);
-    background: #202020;
-    top: -100vh;
-    text-align: center;
-    transition: 0.4s;
-    flex-direction: column;
-}
-
-.menu li {
-    margin: 0 0.5em;
-    line-height: 0.5em;
-
-}
-
-.menu li a{
-    font-size: 0.8rem; 
-}
-
-.menu li a:hover{
-    color: #ffd300;
-}
 
 /*Pantallas de 320px o menos*/
 } @media(max-width: 320px){
