@@ -620,14 +620,15 @@ display: none;
 #portada{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
-    height: 1300px;
+    height: 1200px;
 } 
 
- #portada .lado-a{
-    margin-top: 200px;
+ .lado-a{
     flex: 1;
     padding: 20% auto 0% auto;
+    height: 400px;
     
 }
 .lado-a h1{
@@ -649,6 +650,10 @@ display: none;
     padding: 0;
     margin: 0 auto;
    
+}
+.lado-b img{
+    width: 70%;
+    margin: 0 auto;
 }
                       /*CONOCIMIENTOS*/
 #conocimientos {
