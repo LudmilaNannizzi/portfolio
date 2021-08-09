@@ -16,8 +16,7 @@ body{
     background-size: 115px;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100vh;
+  /*  width: 100vw;*/
     margin:0;
     display: flex;
     flex-direction: column;
@@ -29,7 +28,7 @@ body{
                  /*BARRA DE NAVEGACIÓN*/
 header nav{
     width: 100%;
-    height: 4em;
+    height: 5em;
     background-color:#202020;
     box-shadow: 1px 4px 8px #3a3a3a;
     display: flex;
@@ -159,7 +158,7 @@ header nav{
     flex-direction: row;
     border-radius: 10px;
     width: 30%;
-    height: 250px;
+    height: 16em;
     margin-top:5%;
     background-color:#202020;
     box-shadow: 1px 2px 6px #3a3a3a;
@@ -231,7 +230,7 @@ transition: 0.4s;
     flex-direction: row;
     border-radius: 10px;
     width: 30%;
-    height: 22vh;
+    height: 16em;
     margin-top:1.8em;
     background-color:#fedb21;
     box-shadow: 1px 2px 6px #3a3a3a;
@@ -523,6 +522,10 @@ footer p{
             height: 200px;
             margin-top:5%;
         }
+
+        .cajas-conocimientos div i{
+            font-size: 6rem;
+         }
       /*CITA*/
     .cita{
         width: 100%;
@@ -642,7 +645,7 @@ display: none;
    
 }
 .lado-b img{
-    width: 70%;
+    width: 90%;
     margin: 15% auto;
 }
                       /*CONOCIMIENTOS*/
@@ -653,6 +656,11 @@ display: none;
     height: 220px;
   
 }
+.cajas-conocimientos div i{
+    font-size: 6rem;
+ }
+
+
                     /*PROYECTOS*/
 
 #proyectos {
@@ -753,7 +761,7 @@ display: none;
 
         .cajas-proyectos div {
             width: 48%;
-            height: 25vh;
+            height: 16em;
         }
         .cajas-proyectos div  i{
            margin: 10% auto;
