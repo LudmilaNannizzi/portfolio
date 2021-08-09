@@ -732,9 +732,10 @@ display: none;
         width:190%;
        }
 
-       .nombreyapellido{
-        width: 200%;
+       .nombreyapellido input{
+        width: 90%;
     }
+ 
      
    .bloque_datos textarea, .bloque_datos input{
         width: 200%; 
@@ -845,7 +846,7 @@ display: none;
         }
          
        .bloque_datos textarea, .bloque_datos input{
-            width: 100%; 
+            width: 80%; 
 
         }
 
