@@ -16,7 +16,6 @@ body{
     background-size: 115px;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-  /*  width: 100vw;*/
     margin:0;
     display: flex;
     flex-direction: column;
@@ -125,6 +124,9 @@ header nav{
     flex: 1;
    
 }
+.lado-b{
+    margin: 0 auto;
+}
 .lado-b img{
      width: 80%;
      margin: 35% auto;
@@ -230,7 +232,7 @@ transition: 0.4s;
     flex-direction: row;
     border-radius: 10px;
     width: 30%;
-    height: 16em;
+    height: 14em;
     margin-top:1.8em;
     background-color:#fedb21;
     box-shadow: 1px 2px 6px #3a3a3a;
@@ -660,6 +662,11 @@ display: none;
     font-size: 6rem;
  }
 
+                    /*CITA*/
+.textocita{
+    width: 85%;
+}
+
 
                     /*PROYECTOS*/
 
@@ -680,12 +687,12 @@ display: none;
                    /*FORMULARIO*/
 
 .columnas_de_contacto p{
- width: 90%;
+ width: 80%;
  font-size: 0.9rem;
 
 }
 .columnas_de_contacto h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .columnas_de_contacto table{
@@ -714,6 +721,26 @@ display: none;
 
 }/* Fin Pantallas de 768px o menos*/
 
+@media(max-width: 680px){
+    #formulario{
+        width: 80%;
+        flex-direction: column;
+        height: 1000px;
+     }
+     .columnas_de_contacto p{
+        width:190%;
+       }
+
+       .nombreyapellido{
+        width: 200%;
+    }
+     
+   .bloque_datos textarea, .bloque_datos input{
+        width: 200%; 
+
+    }
+
+}
 
 
 
@@ -749,7 +776,7 @@ display: none;
 
         /*CITA*/
         .textocita{
-            width: 60%;
+            width: 80%;
         }
         /*PROYECTOS*/
         #proyectos {
@@ -792,8 +819,9 @@ display: none;
             width: 90%;
         }
         .columnas_de_contacto p{
-         width: 330px;
-        }
+            width:90%;
+           }
+
         .columnas_de_contacto h2{
             font-size: 2rem;
             text-align: center;
@@ -801,7 +829,7 @@ display: none;
         }
         
         .columnas_de_contacto table{
-            margin-top: 1em;
+            margin-top: 0.8em;
         }
         
         .columnas_de_contacto table tr{
@@ -875,7 +903,7 @@ display: none;
 
   /*CITA*/
   .textocita{
-    width: 80%;
+    width: 70%;
 }
 /*PROYECTOS*/
 .cajas-proyectos{
@@ -895,7 +923,7 @@ display: none;
     width: 90%;
 }
 .columnas_de_contacto p{
- width: 200px;
+ width:100%;
 }
 .columnas_de_contacto h2{
     font-size: 1.8rem;
