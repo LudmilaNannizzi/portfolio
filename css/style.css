@@ -73,7 +73,7 @@ header nav{
     justify-content:space-around;
     flex-wrap: wrap;
     background-color: #fedb21;
-    height: 102vh;
+ 
     
 }
 
@@ -495,6 +495,7 @@ footer p{
         
     }
 
+
     /*CONOCIMIENTOS*/
     
         #conocimientos {
@@ -618,8 +619,6 @@ display: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
-    /*height: 100vh;*/
 } 
 
  .lado-a{
@@ -650,7 +649,7 @@ display: none;
 }
 .lado-b img{
     width: 90%;
-    margin: 15% auto;
+    margin: 15% auto 25% auto;
 }
                       /*CONOCIMIENTOS*/
 #conocimientos {
